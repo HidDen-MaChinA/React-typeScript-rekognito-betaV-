@@ -1,0 +1,107 @@
+.image{
+    width:100%;
+    height:100%;
+    justify-content: center;
+    justify-self: auto;
+}
+.for_table{
+    display: flex;
+    flex-direction: row;
+}
+.for_img{
+    border:1px solid rgb(8, 6, 27);
+    background-color:rgb(8, 6, 27);
+    width:50%;
+    height:80vh;
+    position: relative;
+}
+.all_data{
+    border: 1px solid rgb(8, 6, 27);
+    width:50%;
+    height:80vh;
+    background-color: white;
+}
+.for_img h4{
+    padding: 39%;
+    font-size: large;
+    color: white;
+}
+.header_all_data{
+    background-color:rgb(8, 6, 27);
+    width: 100%;
+    border-bottom: 1px solid black;
+    color: white;
+    margin-top:-21.44px;
+}
+.header_all_data h1{
+    padding-top:3%;
+}
+.button{
+    width:90%;
+    background-color: rgb(230, 235, 248);
+    border: 1px solid black;
+    /* box-shadow: 2px 2px 4px; */
+    margin:5px;
+    padding: 5px;
+}
+.btn button{
+    position: absolute;
+    right: 3%;
+    border-radius:5px;
+    border:1px solid black;
+}
+.btn button:hover{
+    background-color: rgb(192, 214, 233);
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.board{
+    display: flex;
+    flex-direction: row;
+    
+}
+.data{
+    width:50%;
+    border: 1px solid black;
+    margin: 4px;
+    box-shadow: 1px 1px 2px;
+    text-align: center;
+    overflow-y: scroll;
+    height:400px;
+}
+.label_info{
+    color: white;
+    background-color:rgb(8, 6, 27);
+    margin-top:-19.92px;
+    
+}
+.showinfo{
+    width:50%
+}
+.input_file{
+    color:white;
+    font-size: 4em;
+    position: absolute;
+    right:0;
+}
+.turn{
+    border-radius: 50px;
+    width:100px;
+    height:100px;
+    text-align: center;
+}
+.turn:hover{
+    transform: rotate(180deg);
+    color: rgb(43, 150, 145);
+    background-color: rgb(3, 2, 10);
+    transition-duration:500ms;
+}
+.mini_root{
+    margin-top:5%;
+}
+body{
+    background-color: rgb(26, 22, 59);
+}
